@@ -34,9 +34,9 @@ install_blobs() {
     done
 }
 
-MAGURO_BLOBS="asus-flo-jss15j-471ebf18.tgz
-              broadcom-flo-jss15j-35d586b7.tgz
-              qcom-flo-jss15j-8d66de6e.tgz"
+MAGURO_BLOBS="asus-flo-jss15q-1005c1b4.tgz
+              broadcom-flo-jss15q-c07a9bee.tgz
+              qcom-flo-jss15q-73c28bb6.tgz"
 
 CSUM_LIST="$PWD/blob-shasums"
 
