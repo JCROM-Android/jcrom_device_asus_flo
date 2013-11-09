@@ -35,6 +35,9 @@ PRODUCT_COPY_FILES := \
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+	ro.adb.secure=1
+
 PRODUCT_PACKAGES := \
 	lights.msm8960
 
@@ -159,7 +162,6 @@ PRODUCT_PACKAGES += \
 	hwcomposer.msm8960 \
 	gralloc.msm8960 \
 	copybit.msm8960 \
-	keystore.msm8960 \
 	memtrack.msm8960
 
 PRODUCT_PACKAGES += \
@@ -284,7 +286,9 @@ PRODUCT_COPY_FILES += \
     device/asus/flo/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     device/asus/flo/nfc/libnfc-brcm-20791b05.conf:system/etc/libnfc-brcm-20791b05.conf
 
-PRODUCT_LOCALES := en_US es_US de_DE zh_CN
+#PRODUCT_LOCALES := en_US es_US de_DE zh_CN
 
 $(call inherit-product, frameworks/native/build/tablet-7in-xhdpi-2048-dalvik-heap.mk)
 $(call inherit-product, hardware/qcom/msm8960/msm8960.mk)
+
+$(call inherit-product-if-exists, jcrom/common/common.mk)
