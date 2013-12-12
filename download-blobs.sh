@@ -34,9 +34,9 @@ install_blobs() {
     done
 }
 
-MAGURO_BLOBS="asus-flo-krt16s-57b68321.tgz
-              broadcom-flo-krt16s-502f3abd.tgz
-              qcom-flo-krt16s-7c59186d.tgz"
+MAGURO_BLOBS="asus-flo-kot49h-a9532596.tgz
+              broadcom-flo-kot49h-c33beb3d.tgz
+              qcom-flo-kot49h-f92d75b1.tgz"
 
 CSUM_LIST="$PWD/blob-shasums"
 
