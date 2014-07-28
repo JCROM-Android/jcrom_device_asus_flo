@@ -1,5 +1,5 @@
 #
-# Copyright 2012 The Android Open Source Project
+# Copyright 2014 JCROM Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,7 +23,7 @@ $(call inherit-product-if-exists, jcrom/asus/flo/device-common.mk)
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
-PRODUCT_NAME := aosp_flo
+PRODUCT_NAME := jcrom_flo
 PRODUCT_DEVICE := flo
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 7
