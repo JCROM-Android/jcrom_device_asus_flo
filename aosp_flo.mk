@@ -32,3 +32,7 @@ PRODUCT_RESTRICT_VENDOR_FILES := true
 $(call inherit-product, device/asus/flo/device.mk)
 $(call inherit-product-if-exists, vendor/asus/flo/device-vendor.mk)
 #$(call inherit-product-if-exists, vendor/qcom/proprietary/common/config/device-vendor.mk)
+
+#AOSP
+$(call inherit-product-if-exists, vendor/aosp/asus/flo/aosp.mk)
+$(call inherit-product, device/aosp/common/aosp.mk)
