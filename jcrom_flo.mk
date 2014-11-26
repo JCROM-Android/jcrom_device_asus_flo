@@ -31,6 +31,6 @@ $(call inherit-product, device/asus/flo/device.mk)
 $(call inherit-product-if-exists, vendor/asus/flo/device-vendor.mk)
 #$(call inherit-product-if-exists, vendor/qcom/proprietary/common/config/device-vendor.mk)
 
-#AOSP
-$(call inherit-product-if-exists, vendor/aosp/asus/flo/full.mk)
-$(call inherit-product, device/aosp/common/full.mk)
+#JCROM
+$(call inherit-product, jcrom/asus/flo/device-flo.mk)
+$(call inherit-product, jcrom/common/common.mk)
