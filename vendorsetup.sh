@@ -14,7 +14,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo aosp_flo-user
-add_lunch_combo aosp_flo-userdebug
-add_lunch_combo full_flo-user
-add_lunch_combo full_flo-userdebug
+add_lunch_combo jcrom_flo-user
+add_lunch_combo jcrom_flo-userdebug
