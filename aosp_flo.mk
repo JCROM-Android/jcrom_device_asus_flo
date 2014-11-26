@@ -25,7 +25,7 @@ PRODUCT_NAME := aosp_flo
 PRODUCT_DEVICE := flo
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := AOSP on Flo
-PRODUCT_MANUFACTURER := ASUS
+PRODUCT_MANUFACTURER := asus
 PRODUCT_RESTRICT_VENDOR_FILES := true
 
 # Inherit from hardware-specific part of the product configuration
