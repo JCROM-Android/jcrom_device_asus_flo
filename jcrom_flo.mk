@@ -17,7 +17,7 @@
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=razor BUILD_FINGERPRINT=google/razor/flo:5.0/LRX21P/1570855:user/release-keys PRIVATE_BUILD_DESC="razor-user 5.0 LRX21P 1570855 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=razor BUILD_FINGERPRINT=google/razor/flo:5.0.1/LRX22C/1602158:user/release-keys PRIVATE_BUILD_DESC="razor-user 5.0.1 LRX22C 1602158 release-keys"
 
 PRODUCT_NAME := jcrom_flo
 PRODUCT_DEVICE := flo
